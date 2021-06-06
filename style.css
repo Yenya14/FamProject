@@ -1,0 +1,29 @@
+*{
+	font-family: 'Odibee Sans', cursive;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	background-color: #F0F0F0;
+	padding: 10%;
+}
+
+.image{
+	width:700px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+img{
+	position: absolute;
+	width: 100%;
+	top: -25%;
+
+}
+.text{
+	background-color: #ffffff;
+	flex-basis: 28%;
+	padding: 13%;
+}
